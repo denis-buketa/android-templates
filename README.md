@@ -1,2 +1,2 @@
 # android-templates
-Contains template to speed up the Android Development
+Contains templates to speed up the Android Development
