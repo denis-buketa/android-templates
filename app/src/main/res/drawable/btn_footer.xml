@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  Disabled State  -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="6dp" />
+            <solid android:color="#F1F1F1" />
+        </shape>
+    </item>
+
+    <!--  Default State  -->
+    <item>
+        <ripple android:color="?attr/colorControlHighlight">
+            <item>
+                <shape android:shape="rectangle">
+                    <corners android:radius="6dp" />
+                    <solid android:color="#4195D3" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+
+</selector>

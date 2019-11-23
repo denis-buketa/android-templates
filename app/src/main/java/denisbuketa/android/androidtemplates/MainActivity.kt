@@ -3,6 +3,8 @@ package denisbuketa.android.androidtemplates
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import denisbuketa.android.androidtemplates.activitylifecycle.LifecycleActivity
+import denisbuketa.android.androidtemplates.footer.FooterActivity
 import denisbuketa.android.androidtemplates.intentfilters.StartSendActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -17,6 +19,14 @@ class MainActivity : AppCompatActivity() {
 
         sendIntentFilterTestButton.setOnClickListener {
             startActivity(Intent(this, StartSendActivity::class.java))
+        }
+
+        startLifecycleActivityButton.setOnClickListener {
+            startActivity(Intent(this, LifecycleActivity::class.java))
+        }
+
+        startFooterActivityButton.setOnClickListener {
+            startActivity(Intent(this, FooterActivity::class.java))
         }
     }
 }

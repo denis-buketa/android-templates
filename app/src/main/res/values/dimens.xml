@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- region **** Footer ****  -->
+
+    <dimen name="view_footer__footer_height">133dp</dimen>
+    <dimen name="view_footer__banner_height">49dp</dimen>
+    <dimen name="view_footer__top_border_height">1dp</dimen>
+    <dimen name="view_footer__button_height">50dp</dimen>
+    <dimen name="view_footer__button_horizontal_margin">48dp</dimen>
+    <dimen name="view_footer__button_vertical_margin">16dp</dimen>
+    <dimen name="view_footer__image_badge_size">48dp</dimen>
+
+    <!-- endregion -->
+
+</resources>

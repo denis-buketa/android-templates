@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_footer__footer_height"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <View
+        android:id="@+id/banner"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/view_footer__banner_height"
+        android:background="@drawable/banner_footer"
+        app:layout_constraintBottom_toTopOf="@+id/topBorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bannerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banner Text"
+        android:textColor="@color/footer_view__banner_text_color"
+        app:layout_constraintBottom_toBottomOf="@+id/banner"
+        app:layout_constraintEnd_toEndOf="@+id/banner"
+        app:layout_constraintStart_toStartOf="@+id/banner"
+        app:layout_constraintTop_toTopOf="@+id/banner" />
+
+    <View
+        android:id="@+id/topBorder"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/view_footer__top_border_height"
+        android:background="@color/footer_view__top_border_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonText"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/view_footer__button_height"
+        android:layout_marginStart="@dimen/view_footer__button_horizontal_margin"
+        android:layout_marginTop="@dimen/view_footer__button_vertical_margin"
+        android:layout_marginEnd="@dimen/view_footer__button_horizontal_margin"
+        android:layout_marginBottom="@dimen/view_footer__button_vertical_margin"
+        android:background="@drawable/btn_footer"
+        android:stateListAnimator="@null"
+        android:text="One Button"
+        android:textColor="@color/btn_footer_text"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBorder"
+        tools:visibility="invisible" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/buttonImage"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/view_footer__button_height"
+        android:layout_marginStart="@dimen/view_footer__button_horizontal_margin"
+        android:layout_marginTop="@dimen/view_footer__button_vertical_margin"
+        android:layout_marginEnd="@dimen/view_footer__button_horizontal_margin"
+        android:layout_marginBottom="@dimen/view_footer__button_vertical_margin"
+        android:background="@drawable/btn_footer"
+        android:stateListAnimator="@null"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBorder"
+        app:srcCompat="@drawable/ic_microphone" />
+
+    <ImageView
+        android:id="@+id/imageBadge"
+        android:layout_width="@dimen/view_footer__image_badge_size"
+        android:layout_height="@dimen/view_footer__image_badge_size"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/topBorder"
+        app:srcCompat="@drawable/ic_checkmark_badge"
+        tools:visibility="visible" />
+
+</merge>

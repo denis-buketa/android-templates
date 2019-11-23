@@ -15,22 +15,24 @@
             <!-- Make MainActivity a launcher activity -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- Activities to test SEND intent -->
+        </activity> <!-- Activities to test SEND intent -->
         <activity android:name=".intentfilters.StartSendActivity" />
         <activity android:name=".intentfilters.SendActivity">
 
             <!-- Register this activity as able to send text data -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".activitylifecycle.LifecycleActivity" />
+        <activity android:name=".footer.FooterActivity"/>
     </application>
 
 </manifest>

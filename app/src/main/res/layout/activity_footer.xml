@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".footer.FooterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/enableButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enable" />
+
+            <Button
+                android:id="@+id/disableButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disable" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/imageButtonViewModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image Button" />
+
+            <Button
+                android:id="@+id/textButtonViewModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text Button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="top"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/textButtonWithBannerViewModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text Button Banner" />
+
+            <Button
+                android:id="@+id/imageWithBannerViewModel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image Banner" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <denisbuketa.android.androidtemplates.footer.view.FooterView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+
+</FrameLayout>
