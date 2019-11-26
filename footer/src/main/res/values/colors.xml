@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="footer_view__banner_text_color">@color/color_white</color>
+    <color name="footer_view__top_border_color">#80E5E5E5</color>
+
+</resources>

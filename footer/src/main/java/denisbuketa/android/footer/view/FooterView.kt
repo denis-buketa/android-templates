@@ -1,12 +1,12 @@
-package denisbuketa.android.androidtemplates.footer.view
+package denisbuketa.android.footer.view
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import denisbuketa.android.androidtemplates.R
-import denisbuketa.android.androidtemplates.footer.view.viewmodel.*
-import denisbuketa.android.androidtemplates.updateshapecolor.ShapeColorUtils
+import denisbuketa.android.common.updateshapecolor.ShapeColorUtils
+import denisbuketa.android.footer.R
+import denisbuketa.android.footer.view.viewmodel.*
 import kotlinx.android.synthetic.main.view_footer.view.*
 
 /**

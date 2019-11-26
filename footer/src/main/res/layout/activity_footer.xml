@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".footer.FooterActivity">
+    tools:context="denisbuketa.android.footer.FooterActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
 
     </LinearLayout>
 
-    <denisbuketa.android.androidtemplates.footer.view.FooterView
+    <denisbuketa.android.footer.view.FooterView
         android:id="@+id/footer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -2,7 +2,7 @@
  * Copyright © 2019 Rosetta Stone. All rights reserved.
  */
 
-package denisbuketa.android.androidtemplates.footer.view.viewmodel
+package denisbuketa.android.footer.view.viewmodel
 
 import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes

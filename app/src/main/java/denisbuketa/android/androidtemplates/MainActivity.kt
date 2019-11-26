@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import denisbuketa.android.androidtemplates.activitylifecycle.LifecycleActivity
-import denisbuketa.android.androidtemplates.footer.FooterActivity
+import denisbuketa.android.footer.FooterActivity
 import denisbuketa.android.androidtemplates.intentfilters.StartSendActivity
 import kotlinx.android.synthetic.main.activity_main.*
 

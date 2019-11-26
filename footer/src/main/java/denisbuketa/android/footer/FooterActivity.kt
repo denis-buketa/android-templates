@@ -1,10 +1,9 @@
-package denisbuketa.android.androidtemplates.footer
+package denisbuketa.android.footer
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import denisbuketa.android.androidtemplates.R
-import denisbuketa.android.androidtemplates.footer.view.viewmodel.*
+import denisbuketa.android.footer.view.viewmodel.*
 import kotlinx.android.synthetic.main.activity_footer.*
 import kotlinx.android.synthetic.main.view_footer.*
 

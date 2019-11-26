@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name='Android Templates'
+include ':app', ':footer', ':common'
+rootProject.name = 'Android Templates'

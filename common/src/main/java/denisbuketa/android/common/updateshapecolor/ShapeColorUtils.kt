@@ -1,4 +1,4 @@
-package denisbuketa.android.androidtemplates.updateshapecolor
+package denisbuketa.android.common.updateshapecolor
 
 import android.content.Context
 import android.graphics.drawable.ColorDrawable

@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activitylifecycle.LifecycleActivity" />
-        <activity android:name=".footer.FooterActivity"/>
+        <activity android:name="denisbuketa.android.footer.FooterActivity"/>
     </application>
 
 </manifest>
