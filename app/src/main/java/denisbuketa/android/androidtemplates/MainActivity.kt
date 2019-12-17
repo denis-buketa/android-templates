@@ -4,8 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import denisbuketa.android.androidtemplates.activitylifecycle.LifecycleActivity
-import denisbuketa.android.footer.FooterActivity
 import denisbuketa.android.androidtemplates.intentfilters.StartSendActivity
+import denisbuketa.android.encryption.EncryptionActivity
+import denisbuketa.android.footer.FooterActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         startFooterActivityButton.setOnClickListener {
             startActivity(Intent(this, FooterActivity::class.java))
+        }
+
+        startEncryptionActivityButton.setOnClickListener {
+            startActivity(Intent(this, EncryptionActivity::class.java))
         }
     }
 }

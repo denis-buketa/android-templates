@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="denisbuketa.android.encryption">
+
+    <application>
+        <activity android:name=".EncryptionActivity"></activity>
+    </application>
+
+</manifest>
