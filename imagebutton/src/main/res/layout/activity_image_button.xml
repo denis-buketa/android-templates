@@ -6,10 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".ImageButtonActivity">
 
+    <!--  Used only to easily adjust icons in image buttons to be 24x24  -->
+    <View
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:background="#cfd8dc"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <ImageView
         style="@style/ImageButtonStyle"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:padding="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

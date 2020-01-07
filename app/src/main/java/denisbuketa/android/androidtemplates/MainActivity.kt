@@ -1,5 +1,6 @@
 package denisbuketa.android.androidtemplates
 
+import agency.five.imagebutton.ImageButtonActivity
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -32,6 +33,10 @@ class MainActivity : AppCompatActivity() {
 
         startEncryptionActivityButton.setOnClickListener {
             startActivity(Intent(this, EncryptionActivity::class.java))
+        }
+
+        startImageButtonActivityButton.setOnClickListener {
+            startActivity(Intent(this, ImageButtonActivity::class.java))
         }
     }
 }
