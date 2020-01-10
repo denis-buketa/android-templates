@@ -1,0 +1,9 @@
+// Build file where you can add configuration options common to all android library modules.
+
+apply from: "$rootDir/buildscripts/commonAndroid.gradle"
+
+android {
+    defaultConfig {
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+}
