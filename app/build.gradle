@@ -12,6 +12,7 @@ dependencies {
     implementation project(":footer")
     implementation project(":encryption")
     implementation project(":imagebutton")
+    implementation project(":recyclerview")
 
     implementation appcompat
     implementation coreKtx
