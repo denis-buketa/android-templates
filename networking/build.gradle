@@ -2,11 +2,21 @@ apply plugin: 'com.android.library'
 apply from: "$rootDir/buildscripts/commonAndroidLibrary.gradle"
 
 dependencies {
+
+    // Projects
+    implementation project(":logger")
+
+    // Android
     implementation appcompat
     implementation coreKtx
     implementation constraintLayout
-    implementation recyclerView
 
+    // Networking
+    implementation retrofit
+    implementation okHttp
+    implementation gsonConverter
+
+    // Testing
     testImplementation junit
     androidTestImplementation runner
     androidTestImplementation espressoCore

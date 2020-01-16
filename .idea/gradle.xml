@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/encryption" />
             <option value="$PROJECT_DIR$/footer" />
             <option value="$PROJECT_DIR$/imagebutton" />
+            <option value="$PROJECT_DIR$/logger" />
+            <option value="$PROJECT_DIR$/networking" />
             <option value="$PROJECT_DIR$/recyclerview" />
           </set>
         </option>

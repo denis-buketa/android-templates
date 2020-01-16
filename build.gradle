@@ -4,6 +4,8 @@
 // Documentation 2 - https://docs.gradle.org/current/userguide/tutorial_using_tasks.html#sec:build_script_external_dependencies
 // Used to add external jars for binary plugins that will be applied to subprojects
 buildscript {
+    ext.kotlin_version = '1.3.61'
+
 
     // Allows access to values inside dependencies.gradle
     apply from: "$rootDir/buildscripts/dependencies.gradle"
@@ -19,6 +21,7 @@ buildscript {
         classpath androidGradlePlugin
         // Importing this allows us to apply plugins like 'kotlin-android'
         classpath kotlinGradlePlugin
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
