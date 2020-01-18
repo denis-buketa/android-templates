@@ -1,2 +1,7 @@
-include ':app', ':footer', ':common', ':encryption', ':imagebutton'
+include ':app',
+        ':footer',
+        ':common',
+        ':encryption',
+        ':imagebutton',
+        ':recyclerview'
 rootProject.name = 'Android Templates'
