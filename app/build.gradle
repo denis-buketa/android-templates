@@ -13,6 +13,7 @@ dependencies {
     implementation project(":encryption")
     implementation project(":imagebutton")
     implementation project(":recyclerview")
+    implementation project(":networking")
 
     implementation appcompat
     implementation coreKtx
