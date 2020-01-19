@@ -42,6 +42,11 @@ class ItemsAdapter(
         notifyItemMoved(fromIndex, toIndex)
     }
 
+    override fun removeItem(index: Int) {
+        items.removeAt(index)
+        notifyItemRemoved(index)
+    }
+
     inner class ItemViewHolder(
         private val view: View
     ) : RecyclerView.ViewHolder(view),

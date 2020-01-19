@@ -1,6 +1,8 @@
 package denisbuketa.android.recyclerview.reorderrecyclerview
 
 import androidx.recyclerview.widget.ItemTouchHelper
+import androidx.recyclerview.widget.ItemTouchHelper.ACTION_STATE_DRAG
+import androidx.recyclerview.widget.ItemTouchHelper.ACTION_STATE_SWIPE
 import androidx.recyclerview.widget.RecyclerView
 
 private const val NONE = 0
@@ -20,6 +22,8 @@ class ItemTouchManager {
     interface ItemTouchAdapter {
 
         fun moveItem(fromIndex: Int, toIndex: Int)
+
+        fun removeItem(index: Int)
     }
 
     val itemTouchHelper = ItemTouchHelper(ItemTouchHelperCallback())
@@ -35,7 +39,7 @@ class ItemTouchManager {
                 ItemTouchHelper.DOWN or
                 ItemTouchHelper.START or
                 ItemTouchHelper.END
-        private val swipeDirections: Int = NONE
+        private val swipeDirections: Int = ItemTouchHelper.START or ItemTouchHelper.END
 
         override fun getMovementFlags(
             recyclerView: RecyclerView,
@@ -45,7 +49,7 @@ class ItemTouchManager {
         override fun onSelectedChanged(viewHolder: RecyclerView.ViewHolder?, actionState: Int) {
             super.onSelectedChanged(viewHolder, actionState)
 
-            if (actionState == ItemTouchHelper.ACTION_STATE_DRAG) {
+            if (actionState == ACTION_STATE_DRAG || actionState == ACTION_STATE_SWIPE) {
                 (viewHolder as? ItemTouchViewHolder)?.onDragged()
             }
         }
@@ -62,7 +66,8 @@ class ItemTouchManager {
         }
 
         override fun onSwiped(viewHolder: RecyclerView.ViewHolder, direction: Int) {
-            // Do nothing
+            val index = viewHolder.adapterPosition
+            itemTouchAdapter?.removeItem(index)
         }
 
         override fun clearView(recyclerView: RecyclerView, viewHolder: RecyclerView.ViewHolder) {
