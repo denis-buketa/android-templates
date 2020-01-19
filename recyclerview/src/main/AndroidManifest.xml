@@ -3,7 +3,8 @@
     package="denisbuketa.android.recyclerview">
 
     <application>
-        <activity android:name=".RecyclerViewListActivity"></activity>
+        <activity android:name=".simplerecyclerview.RecyclerViewListActivity"/>
+        <activity android:name=".reorderrecyclerview.ReorderRecyclerViewActivity"/>
     </application>
 
 </manifest>

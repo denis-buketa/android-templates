@@ -9,7 +9,8 @@
         android:targetSdkVersion="29" />
 
     <application>
-        <activity android:name="denisbuketa.android.recyclerview.RecyclerViewListActivity" />
+        <activity android:name="denisbuketa.android.recyclerview.simplerecyclerview.RecyclerViewListActivity" />
+        <activity android:name="denisbuketa.android.recyclerview.reorderrecyclerview.ReorderRecyclerViewActivity" />
     </application>
 
 </manifest>

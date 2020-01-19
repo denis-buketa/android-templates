@@ -1,4 +1,4 @@
-include ':app', ':room',
+include ':app', ':room', ':propertyanimation',
         ':retrofit',
         ':logger',
         ':footer',

@@ -1,9 +1,10 @@
-package denisbuketa.android.recyclerview
+package denisbuketa.android.recyclerview.simplerecyclerview
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import denisbuketa.android.recyclerview.R
 import kotlinx.android.synthetic.main.activity_recycler_view_list.*
 
 class RecyclerViewListActivity : AppCompatActivity() {
@@ -13,7 +14,10 @@ class RecyclerViewListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_recycler_view_list)
 
         val layoutManager = LinearLayoutManager(this)
-        val itemsAdapter = ItemsAdapter(LayoutInflater.from(this))
+        val itemsAdapter =
+            ItemsAdapter(
+                LayoutInflater.from(this)
+            )
 
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = itemsAdapter

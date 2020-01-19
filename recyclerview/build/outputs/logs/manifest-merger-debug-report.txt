@@ -1,32 +1,36 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
+INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
 	package
 		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml
 		INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml
-		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
+		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
 		INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml
-		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-9:12
+		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:1-10:12
 		INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:5:5-7:19
-activity#denisbuketa.android.recyclerview.RecyclerViewListActivity
-ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:6:9-71
+ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:5:5-8:19
+activity#denisbuketa.android.recyclerview.simplerecyclerview.RecyclerViewListActivity
+ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:6:9-80
 	android:name
-		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:6:19-59
+		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:6:19-78
+activity#denisbuketa.android.recyclerview.reorderrecyclerview.ReorderRecyclerViewActivity
+ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:7:9-84
+	android:name
+		ADDED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml:7:19-82
 uses-sdk
 INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/denis/Documents/android-projects/android-templates/recyclerview/src/main/AndroidManifest.xml

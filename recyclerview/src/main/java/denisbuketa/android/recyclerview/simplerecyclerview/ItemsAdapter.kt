@@ -1,9 +1,10 @@
-package denisbuketa.android.recyclerview
+package denisbuketa.android.recyclerview.simplerecyclerview
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import denisbuketa.android.recyclerview.R
 import kotlinx.android.synthetic.main.view_item.view.*
 
 class ItemsAdapter(private val layoutInflater: LayoutInflater) :
@@ -13,7 +14,9 @@ class ItemsAdapter(private val layoutInflater: LayoutInflater) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         val view = layoutInflater.inflate(R.layout.view_item, parent, false)
-        return ItemViewHolder(view)
+        return ItemViewHolder(
+            view
+        )
     }
 
     override fun getItemCount(): Int = items.size
