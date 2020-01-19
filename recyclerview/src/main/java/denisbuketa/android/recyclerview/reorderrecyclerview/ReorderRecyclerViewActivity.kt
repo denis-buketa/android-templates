@@ -17,19 +17,24 @@ class ReorderRecyclerViewActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView() {
+
         // Init Item Touch Helper
-        val itemTouchHelper = ReorderUtils.createItemTouchHelper()
+        val itemTouchManager = ItemTouchManager()
 
         // Init Layout Manager
         val layoutManager = LinearLayoutManager(this)
 
         // Init Adapter
-        val itemsAdapter = ItemsAdapter(LayoutInflater.from(this), itemTouchHelper)
+        val itemsAdapter = ItemsAdapter(LayoutInflater.from(this))
+
+        // Connect adapter and touch manager
+        itemsAdapter.itemTouchManager = itemTouchManager
+        itemTouchManager.itemTouchAdapter = itemsAdapter
 
         // Init RecyclerView
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = itemsAdapter
-        itemTouchHelper.attachToRecyclerView(recyclerView)
+        itemTouchManager.itemTouchHelper.attachToRecyclerView(recyclerView)
 
         itemsAdapter.setItems(provideItems())
     }
@@ -48,6 +53,4 @@ class ReorderRecyclerViewActivity : AppCompatActivity() {
             Item("Ten")
         )
     }
-
-
 }
