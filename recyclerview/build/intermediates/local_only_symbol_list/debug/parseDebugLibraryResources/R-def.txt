@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_dehaze_black_24dp
+id recyclerView
+id reorderHandle
+id text
+layout activity_recycler_view_list
+layout view_item
+layout view_reorder_item
+string app_name

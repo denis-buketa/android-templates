@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+apply from: "$rootDir/buildscripts/commonAndroidLibrary.gradle"
+
+dependencies {
+
+    // Projects
+    implementation project(":common")
+    implementation project(":propertyanimation")
+
+    implementation appcompat
+    implementation coreKtx
+    implementation constraintLayout
+    implementation recyclerView
+
+    testImplementation junit
+    androidTestImplementation runner
+    androidTestImplementation espressoCore
+}

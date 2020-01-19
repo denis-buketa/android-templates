@@ -8,6 +8,9 @@ import denisbuketa.android.androidtemplates.activitylifecycle.LifecycleActivity
 import denisbuketa.android.androidtemplates.intentfilters.StartSendActivity
 import denisbuketa.android.encryption.EncryptionActivity
 import denisbuketa.android.footer.FooterActivity
+import denisbuketa.android.networking.NetworkingActivity
+import denisbuketa.android.recyclerview.reorderrecyclerview.ReorderRecyclerViewActivity
+import denisbuketa.android.recyclerview.simplerecyclerview.RecyclerViewListActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 /**
@@ -37,6 +40,18 @@ class MainActivity : AppCompatActivity() {
 
         startImageButtonActivityButton.setOnClickListener {
             startActivity(Intent(this, ImageButtonActivity::class.java))
+        }
+
+        recyclerViewListActivityButton.setOnClickListener {
+            startActivity(Intent(this, RecyclerViewListActivity::class.java))
+        }
+
+        reorderRecyclerViewListActivityButton.setOnClickListener {
+            startActivity(Intent(this, ReorderRecyclerViewActivity::class.java))
+        }
+
+        networkingActivityButton.setOnClickListener {
+            startActivity(Intent(this, NetworkingActivity::class.java))
         }
     }
 }

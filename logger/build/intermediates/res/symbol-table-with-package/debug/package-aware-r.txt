@@ -1,0 +1,2 @@
+denisbuketa.android.logger
+string app_name

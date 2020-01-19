@@ -68,6 +68,36 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:text="Start Image Button Activity" />
+
+            <TextView
+                android:id="@+id/recyclerViewListActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start RecyclerView List Activity" />
+
+            <TextView
+                android:id="@+id/reorderRecyclerViewListActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start Reorder RecyclerView List Activity" />
+
+            <TextView
+                android:id="@+id/networkingActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start Networking Activity" />
         </LinearLayout>
     </ScrollView>
 

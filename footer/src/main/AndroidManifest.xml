@@ -1,2 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="denisbuketa.android.footer" />
+    package="denisbuketa.android.footer">
+
+    <application>
+        <activity android:name=".FooterActivity"/>
+    </application>
+</manifest>

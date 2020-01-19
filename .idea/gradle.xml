@@ -13,6 +13,11 @@
             <option value="$PROJECT_DIR$/encryption" />
             <option value="$PROJECT_DIR$/footer" />
             <option value="$PROJECT_DIR$/imagebutton" />
+            <option value="$PROJECT_DIR$/logger" />
+            <option value="$PROJECT_DIR$/propertyanimation" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/room" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
