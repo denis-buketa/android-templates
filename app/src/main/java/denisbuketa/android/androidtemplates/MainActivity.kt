@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import denisbuketa.android.androidtemplates.activitylifecycle.LifecycleActivity
 import denisbuketa.android.androidtemplates.intentfilters.StartSendActivity
+import denisbuketa.android.elevationtopappbarlayout.ElevationTopAppBarLayoutActivity
 import denisbuketa.android.encryption.EncryptionActivity
 import denisbuketa.android.footer.FooterActivity
 import denisbuketa.android.networking.NetworkingActivity
@@ -52,6 +53,10 @@ class MainActivity : AppCompatActivity() {
 
         networkingActivityButton.setOnClickListener {
             startActivity(Intent(this, NetworkingActivity::class.java))
+        }
+
+        elevationTopAppBarActivityButton.setOnClickListener {
+            startActivity(Intent(this, ElevationTopAppBarLayoutActivity::class.java))
         }
     }
 }

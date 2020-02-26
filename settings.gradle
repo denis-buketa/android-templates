@@ -1,4 +1,4 @@
-include ':app', ':room', ':propertyanimation',
+include ':app', ':room', ':propertyanimation', ':elevationtopappbarlayout',
         ':retrofit',
         ':logger',
         ':footer',

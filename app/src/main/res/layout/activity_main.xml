@@ -98,6 +98,16 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:text="Start Networking Activity" />
+
+            <TextView
+                android:id="@+id/elevationTopAppBarActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start Elevation Top App Bar Activity" />
         </LinearLayout>
     </ScrollView>
 

@@ -1,0 +1,14 @@
+apply plugin: 'com.android.library'
+apply from: "$rootDir/buildscripts/commonAndroidLibrary.gradle"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+dependencies {
+
+    // Projects
+    implementation project(":common")
+
+    implementation appcompat
+    implementation coreKtx
+    implementation constraintLayout
+}

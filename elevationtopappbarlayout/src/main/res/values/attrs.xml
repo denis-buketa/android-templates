@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ElevationTopAppBarLayout">
+        <attr name="zeroElevationColor" format="color"/>
+        <attr name="maxElevationColor" format="color"/>
+        <attr name="maxElevation" format="dimension"/>
+        <attr name="elevationScrollThrottle" format="float"/>
+    </declare-styleable>
+
+</resources>
