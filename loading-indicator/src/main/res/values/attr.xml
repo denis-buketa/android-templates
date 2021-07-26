@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DrawableAnimationView">
+        <attr name="animationDrawable" format="reference"/>
+        <attr name="animationWidth" format="dimension"/>
+        <attr name="animationHeight" format="dimension"/>
+        <attr name="animateOnVisibilityChange" format="boolean"/>
+    </declare-styleable>
+
+</resources>

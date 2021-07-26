@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorGray"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -108,6 +109,56 @@
                 android:focusable="true"
                 android:gravity="center"
                 android:text="Start Elevation Top App Bar Activity" />
+
+            <TextView
+                android:id="@+id/progressBarButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start Progress Bar Activity" />
+
+            <TextView
+                android:id="@+id/smoothCornerButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start Smooth Corner Activity" />
+
+            <TextView
+                android:id="@+id/rstoneSignUpEdittextButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start RStone Sign Up EditText Activity" />
+
+            <TextView
+                android:id="@+id/rstonePurchaseCardButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start RStone Purchase Card Activity" />
+
+            <TextView
+                android:id="@+id/soundsTrueEdittextButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="Start Sounds True Sign Up EditText Activity" />
         </LinearLayout>
     </ScrollView>
 

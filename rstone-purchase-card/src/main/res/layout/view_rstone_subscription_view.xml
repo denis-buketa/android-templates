@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:elevation="0dp"
+    app:cardCornerRadius="8dp"
+    tools:layout_height="wrap_content"
+    tools:layout_width="match_parent"
+    tools:parentTag="androidx.cardview.widget.CardView">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/languageName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="@font/effra_medium"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textSize="11sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/pricePerMonth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Spanish - Latin America"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/unlimitedLanguagesLabel"
+            android:layout_width="0dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="11dp"
+            android:background="#3F93D3"
+            android:fontFamily="@font/effra_bold"
+            android:gravity="center"
+            android:text="Unlimited languages"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/pricePerMonth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/subscriptionDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/effra_bold"
+            android:textColor="#3E3D3F"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:text="3 Months" />
+
+        <TextView
+            android:id="@+id/pricePerMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#4195D3"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toTopOf="@+id/totalPrice"
+            app:layout_constraintEnd_toEndOf="@+id/totalPrice"
+            tools:fontFamily="@font/effra_medium"
+            tools:text="$18.33/mo" />
+
+        <TextView
+            android:id="@+id/totalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/effra_regular"
+            android:textColor="#993E3D3F"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="$54.99 every 3 months" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</merge>

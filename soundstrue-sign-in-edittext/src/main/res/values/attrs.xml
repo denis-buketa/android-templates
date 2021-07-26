@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Additional states to the default one -->
+    <declare-styleable name="StSignUpInputViewState">
+        <attr name="state_error" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StSignUpInputView">
+        <attr name="stInputType" format="enum">
+            <enum name="text" value="0" />
+            <enum name="email" value="1" />
+            <enum name="password" value="2" />
+        </attr>
+        <attr name="hint" format="string" />
+        <attr name="inputFont" format="string" />
+    </declare-styleable>
+
+</resources>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -14,15 +17,20 @@
             <option value="$PROJECT_DIR$/encryption" />
             <option value="$PROJECT_DIR$/footer" />
             <option value="$PROJECT_DIR$/imagebutton" />
+            <option value="$PROJECT_DIR$/loading-indicator" />
             <option value="$PROJECT_DIR$/logger" />
+            <option value="$PROJECT_DIR$/progress-bar" />
             <option value="$PROJECT_DIR$/propertyanimation" />
             <option value="$PROJECT_DIR$/recyclerview" />
             <option value="$PROJECT_DIR$/retrofit" />
             <option value="$PROJECT_DIR$/room" />
+            <option value="$PROJECT_DIR$/rstone-purchase-card" />
+            <option value="$PROJECT_DIR$/rstone-sign-up-edittext" />
+            <option value="$PROJECT_DIR$/smoothcorners" />
+            <option value="$PROJECT_DIR$/soundstrue-sign-in-edittext" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
-        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

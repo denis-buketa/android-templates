@@ -15,6 +15,12 @@ dependencies {
     implementation project(":recyclerview")
     implementation project(':retrofit')
     implementation project(':elevationtopappbarlayout')
+    implementation project(':progress-bar')
+    implementation project(':smoothcorners')
+    implementation project(':loading-indicator')
+    implementation project(':rstone-sign-up-edittext')
+    implementation project(':rstone-purchase-card')
+    implementation project(':soundstrue-sign-in-edittext')
 
     implementation appcompat
     implementation coreKtx

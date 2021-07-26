@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_spinner26" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner25" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner24" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner23" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner22" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner21" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner20" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner18" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner17" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner16" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner15" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner14" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner13" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner12" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner11" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner10" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner09" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner08" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner07" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner06" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner05" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner04" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner03" android:duration="66"/>
+    <item android:drawable="@drawable/ic_spinner02" android:duration="66"/>
+</animation-list>

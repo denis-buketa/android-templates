@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="challenge_correct_color">#0CB040</color>
+    <color name="challenge_incorrect_color">#DC4827</color>
+    <color name="challenge_no_info_color">#84898E</color>
+    <color name="challenge_empty_color">#C7C7C7</color>
+</resources>
